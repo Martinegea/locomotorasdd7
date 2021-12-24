@@ -17,4 +17,8 @@ body {
 
 .list-group-item {
   text-align: center;
-  background: #88b3eb; }
+  background: black;
+  color: white; }
+
+.titulo_index2 {
+  text-align: center; }
