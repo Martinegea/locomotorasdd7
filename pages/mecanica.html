@@ -151,6 +151,23 @@
       <h4>Parada del motor diesel</h4>
       <p>Normal: 2SB1 (loc titular) / 2SB2 (loc múltiple) y botón negro de la j.box (por falta de inyección de combustible</p>
       <p>Emergencia: 4SB1 / 4SB2 (lado ayudante), botón rojo j.box (por falta de inyección de combustible más freno neumático de emergencia) y 3QA6 (sin corriente a la j.box) </p>
+      <h4>Paradas del motor diesel de forma automática</h4>
+      <div>
+        <ul>
+          <li>Sobre Revoluciones: 18% más de las RPM del cigüeñal, repone al descender a 100 RPM.</li>
+          <li>Baja presión de aceite.</li>
+          <li>Alta temperatura del agua de las camisas: 102°C advertencia, histérisis 5 segundos - 107°C parada.</li>
+          <li>Alta temperatura del agua del post enfriador: 102°C advertencia - 107°C parada.</li>
+          <li>Presión positiva en el cárter: 2 KPA advertencia - 3,5 KPA parada.</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>Punto de control: Es un valor específico que puede activar advertencia, reducción de potencia y parada. Puede que sea por presión, velocidad, voltaje y temperatura.</li>
+          <li>Histérisis: Es la diferencia entre el punto de control y el valor que desactiva la respuesta.</li>
+          <li>Reducción de potencia: Reduce la potencia del motor diésel como respuesta a una operación anormal. Estas pueden ser por altitud (pasando los 500 metros), alta temperatura de los gases de escape (mayor a 750°C) y restricción del aire del sistema de admisión. </li>
+        </ul>
+      </div>
     </div>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
