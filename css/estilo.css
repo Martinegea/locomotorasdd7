@@ -1,6 +1,8 @@
 body {
   background: #88b3eb;
-  font-size: 20px; }
+  font-size: 20px;
+  margin: 0;
+  padding: 0; }
 
 .seccion_index-titulo {
   text-align: center;
@@ -21,3 +23,7 @@ body {
 
 .titulo_index2 {
   text-align: center; }
+
+.inyeccion_flex {
+  display: flex;
+  margin: 20px 15px; }

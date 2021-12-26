@@ -45,6 +45,8 @@
    </header>
    <div>
      <h2>Cargas</h2>
+     <p>Carga variable: El motor puede o no recibir esta carga</p>
+     <p>Carga constante: Siempre esta recibiendo esta carga</p>
      <ul>
        <li>Compresor: Mecánica-variable (750 KPA a 900KPA)</li>
        <li>Bomba Hidrostática: Mecánica-variable (La mueve la caja incrementadora, es variable porque depende de la temperatura)</li>
@@ -168,6 +170,12 @@
           <li>Reducción de potencia: Reduce la potencia del motor diésel como respuesta a una operación anormal. Estas pueden ser por altitud (pasando los 500 metros), alta temperatura de los gases de escape (mayor a 750°C) y restricción del aire del sistema de admisión. </li>
         </ul>
       </div>
+    </div>
+    <div>
+      <p>Sobre revoluciones: Acuta cuando la tensión de la batería aumente aproximadamente 30 volt, porque no lo regula el 2UP y también cuando se le saca una carga de golpe</p>
+      <p>La batería 2UP: Reduce de 110v a 24v, alimenta al ECM, J.box, solenoides y por una derivación al EMS (luces de caterpiller) </p>
+      <p>Generador auxiliar: El generador auxiliar alimenta al circuito de baja tensión, siempre que pueda vencer la tensión de la batería (+23,6v) prevalece la del G.A sobre la batería</p>
+      <p>Sopladores de piso: Tiene una refrigeración constante porque al estar su conexionado en serie tiene mucha cumpla de arranque, toda la corriente que pase por el bobinado de inducido pasara por el de campo, por eso tiene que ser refrigerado constantemente</p>
     </div>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
