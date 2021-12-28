@@ -1,3 +1,7 @@
+.header_index{
+    box-shadow: 2px 0px 10px white;
+}
+
 .seccion_index-titulo{
     text-align: center;
     margin-top: 10px;
@@ -9,6 +13,9 @@
 
 .seccion_index-caracteristica {
     text-align: center;
+    font-size: 25px;
+    box-shadow: 2px 0px 10px black;
+    margin-bottom: 10px;
 }
 
 .list-group{
@@ -18,9 +25,38 @@
 .list-group-item{
     text-align: center;
     background: $colordefondo;
+    color: white;
 }
 
 .titulo_index2{
     text-align: center;
+    box-shadow: 2px 0px 10px black;
+    margin-bottom: 15px;
 }
 
+.titulo_index3{
+    text-align: center;
+}
+
+.parrafo3{
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.titulo_index4{
+    text-align: center;
+}
+
+.card{
+    margin: auto;
+    margin-top: 25px;
+    color: black;
+}
+
+.lista_flex3{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    
+}
