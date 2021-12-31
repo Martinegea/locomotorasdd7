@@ -43,7 +43,8 @@ body {
   text-align: center; }
 
 .titulo_index4 {
-  text-align: center; }
+  text-align: center;
+  margin-top: 30px; }
 
 .card {
   margin: auto;
@@ -54,6 +55,31 @@ body {
   display: flex;
   justify-content: space-evenly;
   text-decoration: none; }
+
+.index_bogie {
+  margin-left: 10px; }
+
+.index_bogie2 {
+  padding: 10px 10px; }
+
+.header_amor {
+  box-shadow: 2px 0px 10px white; }
+
+.puntaeje {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  box-shadow: 2px 0px 10px black;
+  font-size: 30px; }
+
+.tituloamor {
+  text-align: center; }
+
+.parrafoamor {
+  padding: 10px 10px; }
+
+.amor3 {
+  margin-left: 10px; }
 
 .inyeccion_flex {
   display: flex;
