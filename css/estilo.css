@@ -1,5 +1,5 @@
 body {
-  background: #1a1283;
+  background: #074a8a;
   color: white;
   font-size: 20px;
   margin: 0;
@@ -13,7 +13,7 @@ body {
   margin-top: 10px; }
 
 .seccion_index-parrafo {
-  padding: 10px 10px; }
+  padding: 10px 100px; }
 
 .seccion_index-caracteristica {
   text-align: center;
@@ -26,8 +26,9 @@ body {
 
 .list-group-item {
   text-align: center;
-  background: #1a1283;
-  color: white; }
+  background: #074a8a;
+  color: white;
+  padding: 10px 100px; }
 
 .titulo_index2 {
   text-align: center;
@@ -57,10 +58,10 @@ body {
   text-decoration: none; }
 
 .index_bogie {
-  margin-left: 10px; }
+  margin-left: 100px; }
 
 .index_bogie2 {
-  padding: 10px 10px; }
+  padding: 10px 100px; }
 
 .header_amor {
   box-shadow: 2px 0px 10px white; }
