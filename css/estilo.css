@@ -3,10 +3,18 @@ body {
   color: white;
   font-size: 20px;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Saira Condensed', sans-serif; }
 
 .header_index {
-  box-shadow: 2px 0px 10px white; }
+  box-shadow: 1px 0px 5px white; }
+
+.iconotren {
+  margin-left: auto;
+  font-size: 2rem; }
+
+.nav-link {
+  margin-left: auto; }
 
 .cajaimg {
   text-align: center;
@@ -20,7 +28,8 @@ body {
 
 .seccion_index-titulo {
   text-align: center;
-  margin-top: 10px; }
+  margin-top: 20px;
+  color: black; }
 
 .seccion_index-parrafo {
   padding: 10px 100px; }
@@ -43,10 +52,12 @@ body {
 .titulo_index2 {
   text-align: center;
   box-shadow: 2px 0px 10px black;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  color: black; }
 
 .titulo_index3 {
-  text-align: center; }
+  text-align: center;
+  color: black; }
 
 .parrafo3 {
   margin-left: 10px;
@@ -55,7 +66,14 @@ body {
 
 .titulo_index4 {
   text-align: center;
-  margin-top: 30px; }
+  margin-top: 30px;
+  color: black; }
+
+.electrica {
+  border-top: 1px solid white; }
+
+.linea2 {
+  border-bottom: 1px solid white; }
 
 .card {
   margin: auto;
@@ -68,7 +86,8 @@ body {
   text-decoration: none; }
 
 .index_bogie {
-  margin-left: 100px; }
+  margin-left: 100px;
+  color: black; }
 
 .index_bogie2 {
   padding: 10px 100px; }
@@ -96,6 +115,10 @@ body {
   display: flex;
   margin: 20px 15px; }
 
-@media only screen and (max-widht: 700px) {
+@media only screen and (max-width: 700px) {
   .imagen2 {
     width: 310px; } }
+
+@media only screen and (max-width: 500px) {
+  .seccion_index-parrafo {
+    padding: 10px; } }

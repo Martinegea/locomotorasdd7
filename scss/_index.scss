@@ -1,5 +1,14 @@
 .header_index{
-    box-shadow: 2px 0px 10px white;
+    box-shadow: 1px 0px 5px white;
+}
+
+.iconotren{
+    margin-left: auto;
+    font-size: 2rem;
+}
+
+.nav-link{
+    margin-left: auto;
 }
 
 .cajaimg{
@@ -16,7 +25,9 @@
 
 .seccion_index-titulo{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
+    color: black;
+
 }
 
 .seccion_index-parrafo{
@@ -45,10 +56,12 @@
     text-align: center;
     box-shadow: 2px 0px 10px black;
     margin-bottom: 15px;
+    color: black;
 }
 
 .titulo_index3{
     text-align: center;
+    color: black;
 }
 
 .parrafo3{
@@ -60,6 +73,15 @@
 .titulo_index4{
     text-align: center;
     margin-top: 30px;
+    color: black;
+}
+
+.electrica{
+    border-top: 1px solid white;
+}
+
+.linea2{
+    border-bottom: 1px solid white;
 }
 
 .card{
@@ -77,6 +99,7 @@
 
 .index_bogie{
     margin-left: 100px;
+    color: black;
 }
 
 .index_bogie2{
