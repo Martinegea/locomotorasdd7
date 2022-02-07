@@ -47,85 +47,85 @@
       </div>
     </nav>
    </header>
-   <div>
-     <h2>Cargas</h2>
-     <p>Carga variable: El motor puede o no recibir esta carga</p>
-     <p>Carga constante: Siempre esta recibiendo esta carga</p>
-     <ul>
-       <li>Compresor: Mecánica-variable (750 KPA a 900KPA)</li>
-       <li>Bomba Hidrostática: Mecánica-variable (La mueve la caja incrementadora, es variable porque depende de la temperatura)</li>
-       <li>Sopladores de piso 1 y 2: Mecánica-constante (Soplador 1 refrigera motores 1, 2, 3 y rectificador de silicio - Soplador 2 refrigera motores 4, 5 y 6 </li>
-       <li>Alternador principal: Eléctrica-variable</li>
-       <li>Generador auxiliar: Eléctrica-constante</li>
+   <div class="caja_carga">
+     <h2 class="titulo_carga">Cargas</h2>
+     <p class="parrafo_carga">Carga variable: El motor puede o no recibir esta carga</p>
+     <p class="parrafo_carga">Carga constante: Siempre esta recibiendo esta carga</p>
+     <ul class="lista_carga">
+       <li class="item_carga">Compresor: Mecánica-variable (750 KPA a 900KPA)</li>
+       <li class="item_carga">Bomba Hidrostática: Mecánica-variable (La mueve la caja incrementadora, es variable porque depende de la temperatura)</li>
+       <li class="item_carga">Sopladores de piso 1 y 2: Mecánica-constante (Soplador 1 refrigera motores 1, 2, 3 y rectificador de silicio - Soplador 2 refrigera motores 4, 5 y 6 </li>
+       <li class="item_carga">Alternador principal: Eléctrica-variable</li>
+       <li class="item_carga">Generador auxiliar: Eléctrica-constante</li>
      </ul>
     </div>
-    <table>
-      <tr>
+    <table class="tabla_carga">
+      <tr class="tr_carga">
         <th>Caja de velocidad N°1</th>
         <th>Accionamiento</th>
         <th>Número de dientes</th>
         <th>RPM</th>
       </tr>
-      <tr>
+      <tr class="tr_carga">
         <td>1</td>
         <td>Engranaje de accionamiento del soplador N°1</td>
         <td>19</td>
         <td>2936,8</td>
       </tr>
-      <tr>
+      <tr class="tr_carga">
         <td>2</td>
         <td>Engranaje libre</td>
         <td>44</td>
         <td>1268,2</td>
       </tr>
-      <tr>
+      <tr class="tr_carga">
         <td>3</td>
         <td>Engranaje de toma de fuerza desde el motor diesel</td>
         <td>31</td>
         <td>1800</td>
       </tr>
-      <tr>
+      <tr class="tr_carga">
         <td>4</td>
         <td>Engranaje de accionamiento del compresor</td>
         <td>59</td>
         <td>945,8</td>
       </tr>
-      <tr>
+      <tr class="tr_carga">
         <td>5</td>
         <td>Engranaje de accionamiento del generador auxiliar</td>
         <td>21</td>
         <td>2657,1</td>
       </tr>
     </table>
-    <table>
-      <tr>
+    <table class="tabla_carga">
+      <tr class="tr_carga">
         <th>Caja de velocidad N°2</th>
         <th>Accionamiento</th>
         <th>Número de dientes</th>
         <th>RPM</th>
       </tr>
-      <tr>
+      <tr class="tr_carga">
         <td>1</td>
         <td>Engranaje de accionamiento de la bomba hidrostática</td>
         <td>47</td>
         <td>1302,1</td>
       </tr>
-      <tr>
+      <tr class="tr_carga">
         <td>2</td>
         <td>Engranaje de toma de fuerza desde el motor diesel</td>
         <td>34</td>
         <td>1800</td>
       </tr>
-      <tr>
+      <tr class="tr_carga">
         <td>3</td>
         <td>Engranaje de accionamiento del soplador N°2</td>
         <td>21</td>
         <td>2914,3</td>
       </tr>
     </table>
-    <div>
-      <h3>Motor diesel 3516B</h3>
-      <h4>Características</h4>
+    <div class="cajamotor_carga">
+      <h3 class="titulo_carga">Motor diesel 3516B</h3>
+      <h4 class="titulo_carga">Características</h4>
       <ul class="list-group">
         <li class="list-group-item">Ciclo de trabajo: 4 tiempos</li>
         <li class="list-group-item">Número de cilindros: 16 en V</li>
@@ -153,12 +153,12 @@
         <li class="list-group-item">El motor diesel pesa 7720 Kg</li>
       </ul>
     </div>
-    <div>
-      <h4>Parada del motor diesel</h4>
-      <p>Normal: 2SB1 (loc titular) / 2SB2 (loc múltiple) y botón negro de la j.box (por falta de inyección de combustible</p>
-      <p>Emergencia: 4SB1 / 4SB2 (lado ayudante), botón rojo j.box (por falta de inyección de combustible más freno neumático de emergencia) y 3QA6 (sin corriente a la j.box) </p>
-      <h4>Paradas del motor diesel de forma automática</h4>
-      <div>
+    <div class="caja_motorcarga">
+      <h4 class="titulo_carga">Parada del motor diesel</h4>
+      <p class="parrafo_carga">Normal: 2SB1 (loc titular) / 2SB2 (loc múltiple) y botón negro de la j.box (por falta de inyección de combustible</p>
+      <p class="parrfo_carga">Emergencia: 4SB1 / 4SB2 (lado ayudante), botón rojo j.box (por falta de inyección de combustible más freno neumático de emergencia) y 3QA6 (sin corriente a la j.box) </p>
+      <h4 class="titulo_carga">Paradas del motor diesel de forma automática</h4>
+      <div class="caja_parada">
         <ul>
           <li>Sobre Revoluciones: 18% más de las RPM del cigüeñal, repone al descender a 100 RPM.</li>
           <li>Baja presión de aceite.</li>
